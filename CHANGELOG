@@ -1,0 +1,23 @@
+0.0.1 - orig program, flat maps
+0.0.2 - fixed buggy plotting code
+        lines overlapped properly now
+0.0.3 - added Z-axis handling
+0.0.4 - added command-line control of options
+0.0.5 - added direction of fake-Z offsetting
+0.0.6 - added camera axis, added auto-Z-offset selection
+0.0.7 - started implementing extraneous line removal
+0.0.8 - option to negate the picture
+0.0.9 - name now bsp2bmp, as it writes an (uncompressed) BMP file
+0.0.10 - bugfixes in BMP writing
+0.0.11 - add option for small polygon removal and small line removal,
+         more BMP writing bigfixes (but still doesn't seem right).
+0.0.12 - fixed a big bug introduced in last version's BMP writing code.
+         however is still not perfect.
+0.0.13 - fixed bug in bmp writing code relating to zero padding
+0.0.14 - rewrote file reading/writing routines ... yeah they should be
+         functions, but this is probably the last update I'll ever do!
+0.0.15 - changed fopen() modes to "rb" instead of "r" to deal with certain
+         porting issues.
+0.0.15b - no code changes, minor documentation changes
+0.0.15c - minor change in .c to make it possible to compile under windows with cygwin ( _KaszpiR_ )
+0.0.15d - when outfile is not provided, then program outputs .bmp file to the same directory as .bsp file, makes windows scripting life much easier ( _KaszpiR_ )
